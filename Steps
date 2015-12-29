@@ -1,0 +1,14 @@
+Now you can use safari,internet explorer etc in ubuntu, steps given below.
+wget -q -O- http://deb.playonlinux.com/public.gpg | sudo apt-key add -
+sudo wget http://deb.playonlinux.com/playonlinux_precise.list -O /etc/apt/sources.list.d/playonlinux.list
+sudo apt-get update
+ 
+# useful dependencies
+sudo apt-get install -y curl p7zip-full
+ 
+# install playonlinux
+ 
+sudo apt-get install -y playonlinux
+
+Start :
+playonlinux
